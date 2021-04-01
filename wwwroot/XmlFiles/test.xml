@@ -1,0 +1,17 @@
+﻿<Units>
+
+  <Unit Title="Team1">
+    <Employee Name="Ivanov P.E." Position="Lead Developer" HireDate="22.03.2020"/>
+    <Employee Name="Ivanov P.K." Position="Lead Developer" HireDate="22.03.2020"/>
+    <Employee Name="Ivanov P.L." Position="Lead Developer" HireDate="22.03.2020"/>
+
+  </Unit>
+  <Unit Title="Team2">
+    <Employee Name="Ivanov P.M." Position="Lead Developer" HireDate="22.03.2020"/>
+    <Employee Name="Ivanov P.D." Position="Lead Developer" HireDate="22.03.2020"/>
+
+  </Unit>
+  <Unit Title="Team3">
+    <Employee Name="Ivanov P.V." Position="Lead Developer" HireDate="22.03.2020"/>
+  </Unit>
+</Units>

@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<label>File!</label>
+<form asp-controller="Home" id="form" asp-action="SendFile" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" id="fileHere" style="display:none;" />
+    <input id="but" type="submit" value="Send" style="display:none;"/>
+
+</form>
+<button id="but2">LoadFile</button>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script>
+    $("#but2").click(function () {
+        document.getElementById("fileHere").click();
+    })
+    $("#fileHere").change(function () {
+        if (document.getElementById('fileHere').files[0].name.substr(-4)===".xml") {
+            $("#but").click();
+        }
+        else {
+            alert("Вставьте xml файл!")
+        }
+    })
+</script>
